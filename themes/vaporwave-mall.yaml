@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/vaporwave-mall.yaml)
+name: vaporwave-mall
+label: Vaporwave Mall
+description: Abandoned 90s shopping mall — seafoam, mauve, and chrome on checkerboard
+  dark
+palette:
+  background:
+    hex: '#1a1a28'
+    alpha: 1.0
+  midground:
+    hex: '#d8d8f0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 106, 193, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff6ac1'
+  primaryForeground: '#ffffff'
+  accent: '#ff6ac1'
+  accentForeground: '#ffffff'
+  border: '#ff6ac1'
+  input: '#ff6ac1'
+  ring: '#ff6ac1'
+  success: '#a6e22e'
+  warning: '#e6db74'
+  destructive: '#f92672'

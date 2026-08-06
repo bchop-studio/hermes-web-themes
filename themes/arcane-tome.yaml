@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/arcane-tome.yaml)
+name: arcane-tome
+label: Arcane Tome
+description: Wizard's spellbook — deep violet leather, glowing arcane blue, and aged
+  gold foil
+palette:
+  background:
+    hex: '#161022'
+    alpha: 1.0
+  midground:
+    hex: '#c8c0e0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(192, 160, 64, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#c0a040'
+  primaryForeground: '#ffffff'
+  accent: '#c0a040'
+  accentForeground: '#ffffff'
+  border: '#7a58a8'
+  input: '#7a58a8'
+  ring: '#c0a040'
+  success: '#50c080'
+  warning: '#c0a040'
+  destructive: '#c05060'

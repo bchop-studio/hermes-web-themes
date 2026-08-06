@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/brutalist-concrete.yaml)
+name: brutalist-concrete
+label: Brutalist Concrete
+description: Raw architectural concrete — unflinching gray on gray with one fluorescent
+  orange signal
+palette:
+  background:
+    hex: '#202020'
+    alpha: 1.0
+  midground:
+    hex: '#c0c0c0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 85, 0, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff5500'
+  primaryForeground: '#ffffff'
+  accent: '#ff5500'
+  accentForeground: '#ffffff'
+  border: '#505050'
+  input: '#505050'
+  ring: '#ff5500'
+  success: '#60a060'
+  warning: '#ff8800'
+  destructive: '#e04030'

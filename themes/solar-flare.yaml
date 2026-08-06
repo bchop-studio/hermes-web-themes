@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/solar-flare.yaml)
+name: solar-flare
+label: Solar Flare
+description: Intense dark solarized — deep navy background with blazing amber, cyan,
+  and magenta signals
+palette:
+  background:
+    hex: '#002b36'
+    alpha: 1.0
+  midground:
+    hex: '#eee8d5'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(203, 75, 22, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#cb4b16'
+  primaryForeground: '#ffffff'
+  accent: '#cb4b16'
+  accentForeground: '#ffffff'
+  border: '#b58900'
+  input: '#b58900'
+  ring: '#cb4b16'
+  success: '#859900'
+  warning: '#b58900'
+  destructive: '#dc322f'

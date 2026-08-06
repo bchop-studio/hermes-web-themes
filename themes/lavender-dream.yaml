@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/lavender-dream.yaml)
+name: lavender-dream
+label: Lavender Dream
+description: Soft purple twilight — gentle lavender, blush pink, and mint on deep
+  plum, no eye strain
+palette:
+  background:
+    hex: '#1e1a2a'
+    alpha: 1.0
+  midground:
+    hex: '#d8d0e8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(160, 136, 200, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#a088c8'
+  primaryForeground: '#ffffff'
+  accent: '#a088c8'
+  accentForeground: '#ffffff'
+  border: '#8870a8'
+  input: '#8870a8'
+  ring: '#a088c8'
+  success: '#88c898'
+  warning: '#c8a878'
+  destructive: '#c87078'

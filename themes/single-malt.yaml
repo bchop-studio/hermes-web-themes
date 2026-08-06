@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/single-malt.yaml)
+name: single-malt
+label: Single Malt
+description: Warm whiskey in a dark room — amber on deep brown-black, one color, perfectly
+  restrained
+palette:
+  background:
+    hex: '#1a1410'
+    alpha: 1.0
+  midground:
+    hex: '#d0c0a0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(144, 112, 64, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#907040'
+  primaryForeground: '#ffffff'
+  accent: '#907040'
+  accentForeground: '#ffffff'
+  border: '#705830'
+  input: '#705830'
+  ring: '#907040'
+  success: '#80a060'
+  warning: '#c09860'
+  destructive: '#a06040'

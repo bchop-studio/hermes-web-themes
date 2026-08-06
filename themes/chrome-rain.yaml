@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/chrome-rain.yaml)
+name: chrome-rain
+label: Chrome Rain
+description: Wet chrome streets at midnight — electric blue, hot pink, and acid yellow
+  on deep indigo
+palette:
+  background:
+    hex: '#120c2e'
+    alpha: 1.0
+  midground:
+    hex: '#e8def8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(230, 57, 140, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#e6398c'
+  primaryForeground: '#ffffff'
+  accent: '#e6398c'
+  accentForeground: '#ffffff'
+  border: '#4dc9f6'
+  input: '#4dc9f6'
+  ring: '#e6398c'
+  success: '#2ecc71'
+  warning: '#f4d03f'
+  destructive: '#e74c3c'

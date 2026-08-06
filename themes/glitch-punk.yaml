@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/glitch-punk.yaml)
+name: glitch-punk
+label: Glitch Punk
+description: Broken signal aesthetic — toxic green on corrupted black with flickering
+  red accents
+palette:
+  background:
+    hex: '#0d0d0d'
+    alpha: 1.0
+  midground:
+    hex: '#c0ffc0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 0, 60, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff003c'
+  primaryForeground: '#ffffff'
+  accent: '#ff003c'
+  accentForeground: '#ffffff'
+  border: '#39ff14'
+  input: '#39ff14'
+  ring: '#ff003c'
+  success: '#39ff14'
+  warning: '#ff8800'
+  destructive: '#ff003c'

@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/green-screen.yaml)
+name: green-screen
+label: Green Screen
+description: Vintage IBM monochrome — phosphor green on dark tube glass, with a slight
+  glow bloom
+palette:
+  background:
+    hex: '#0a0e08'
+    alpha: 1.0
+  midground:
+    hex: '#b0e8b0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(64, 184, 64, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#40b840'
+  primaryForeground: '#ffffff'
+  accent: '#40b840'
+  accentForeground: '#ffffff'
+  border: '#308830'
+  input: '#308830'
+  ring: '#40b840'
+  success: '#50e050'
+  warning: '#e0e050'
+  destructive: '#e05050'

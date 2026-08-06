@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/deep-ocean.yaml)
+name: deep-ocean
+label: Deep Ocean
+description: Abyssal trench — darkest teal, bioluminescent blue-green, and pale sea-foam
+  highlights
+palette:
+  background:
+    hex: '#0a1a20'
+    alpha: 1.0
+  midground:
+    hex: '#c0e8e8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(48, 152, 168, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#3098a8'
+  primaryForeground: '#ffffff'
+  accent: '#3098a8'
+  accentForeground: '#ffffff'
+  border: '#206880'
+  input: '#206880'
+  ring: '#3098a8'
+  success: '#50d0a0'
+  warning: '#d0a840'
+  destructive: '#d05060'

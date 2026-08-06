@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/moss-stone.yaml)
+name: moss-stone
+label: Moss Stone
+description: Cool forest stone — gray-green granite, soft olive, and earthy brown
+  warmth
+palette:
+  background:
+    hex: '#1c2018'
+    alpha: 1.0
+  midground:
+    hex: '#c8d0b8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(120, 136, 96, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#788860'
+  primaryForeground: '#ffffff'
+  accent: '#788860'
+  accentForeground: '#ffffff'
+  border: '#6a7a5a'
+  input: '#6a7a5a'
+  ring: '#788860'
+  success: '#80b870'
+  warning: '#c0a860'
+  destructive: '#b87060'

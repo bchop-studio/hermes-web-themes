@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/bone-white.yaml)
+name: bone-white
+label: Bone White
+description: Pure minimalism — off-white text on soft black, with one muted teal accent
+palette:
+  background:
+    hex: '#1a1a1a'
+    alpha: 1.0
+  midground:
+    hex: '#d8d8d8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(96, 128, 136, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#608088'
+  primaryForeground: '#ffffff'
+  accent: '#608088'
+  accentForeground: '#ffffff'
+  border: '#444a50'
+  input: '#444a50'
+  ring: '#608088'
+  success: '#789880'
+  warning: '#989078'
+  destructive: '#987878'

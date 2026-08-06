@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/red-alert.yaml)
+name: red-alert
+label: Red Alert
+description: Klaxon warning — deep crimson, hazard orange, and cold white on near-black,
+  urgent but clean
+palette:
+  background:
+    hex: '#0a0a0a'
+    alpha: 1.0
+  midground:
+    hex: '#e8e0e0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 68, 0, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff4400'
+  primaryForeground: '#ffffff'
+  accent: '#ff4400'
+  accentForeground: '#ffffff'
+  border: '#cc2222'
+  input: '#cc2222'
+  ring: '#ff4400'
+  success: '#44cc44'
+  warning: '#ff8800'
+  destructive: '#ff2222'

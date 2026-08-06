@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/eclipse.yaml)
+name: eclipse
+label: Eclipse
+description: Total solar eclipse — charcoal field with a corona ring of soft lilac
+  and electric white
+palette:
+  background:
+    hex: '#18181a'
+    alpha: 1.0
+  midground:
+    hex: '#d0d0d8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(154, 136, 192, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#9a88c0'
+  primaryForeground: '#ffffff'
+  accent: '#9a88c0'
+  accentForeground: '#ffffff'
+  border: '#6a5a8a'
+  input: '#6a5a8a'
+  ring: '#9a88c0'
+  success: '#78a878'
+  warning: '#c8a870'
+  destructive: '#b86868'

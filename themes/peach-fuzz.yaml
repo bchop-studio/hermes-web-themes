@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/peach-fuzz.yaml)
+name: peach-fuzz
+label: Peach Fuzz
+description: Pantone Color of the Year 2024 — soft peach, warm coral, and gentle cream
+  on dark taupe
+palette:
+  background:
+    hex: '#201c18'
+    alpha: 1.0
+  midground:
+    hex: '#e8d8c8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(224, 160, 128, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#e0a080'
+  primaryForeground: '#1a1a1a'
+  accent: '#e0a080'
+  accentForeground: '#1a1a1a'
+  border: '#d89070'
+  input: '#d89070'
+  ring: '#e0a080'
+  success: '#90c090'
+  warning: '#e0b870'
+  destructive: '#d07068'
