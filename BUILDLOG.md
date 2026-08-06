@@ -2,6 +2,21 @@
 
 Reverse-chronological build log for hermes-web-themes.
 
+## 2026-08-05 — chore/preview-assets: screenshots + demo clip
+
+- Captured 12 theme screenshots (1600x900) on the live dashboard at
+  localhost:9119 with Playwright, driving the sidebar theme switcher
+  (`div[role="listbox"] button[role="option"]`, labels are title-case).
+  Themes: Hermes Teal, Nous Blue, Midnight, Cyberpunk, Rosé, Ember,
+  Obsidian, Vaporwave Mall, Commodore 64, Glitch Punk, Rice Paper,
+  Void Sunset.
+- Assembled `assets/theme-grid.png` (2448x2060 contact sheet, PIL,
+  3 columns with labels).
+- Recorded a 17.6s demo clip (Playwright video -> ffmpeg
+  `setpts=PTS/1.45`, h264 yuv420p, 1600x900) cycling 7 themes; saved as
+  `assets/theme-demo.mp4`.
+- README: preview section with grid embedded and clip linked.
+
 ## 2026-08-05 — feat/dashboard-themes-50: initial 50-theme port
 
 - Cloned empty repo; bootstrapped remote `main` with an empty root commit
