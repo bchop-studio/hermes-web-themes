@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/black-canary.yaml)
+name: black-canary
+label: Black Canary
+description: Aviation cockpit — bright yellow on matte black with crisp white signals,
+  zero ambiguity
+palette:
+  background:
+    hex: '#101010'
+    alpha: 1.0
+  midground:
+    hex: '#f0f0f0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 215, 0, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ffd700'
+  primaryForeground: '#1a1a1a'
+  accent: '#ffd700'
+  accentForeground: '#1a1a1a'
+  border: '#ffd700'
+  input: '#ffd700'
+  ring: '#ffd700'
+  success: '#00e070'
+  warning: '#ffd700'
+  destructive: '#ff3030'

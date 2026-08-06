@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/typewriter-cream.yaml)
+name: typewriter-cream
+label: Typewriter Cream
+description: Aged manuscript — warm cream paper background with faded ink, sepia accents,
+  and soft rust
+palette:
+  background:
+    hex: '#2a2418'
+    alpha: 1.0
+  midground:
+    hex: '#e0d8c0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(160, 136, 96, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#a08860'
+  primaryForeground: '#ffffff'
+  accent: '#a08860'
+  accentForeground: '#ffffff'
+  border: '#8a7850'
+  input: '#8a7850'
+  ring: '#a08860'
+  success: '#80a060'
+  warning: '#c0a050'
+  destructive: '#b05840'

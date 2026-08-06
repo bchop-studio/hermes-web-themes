@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/dusty-rose.yaml)
+name: dusty-rose
+label: Dusty Rose
+description: Antique velvet — muted rose, dusty mauve, and faded sage on warm charcoal
+palette:
+  background:
+    hex: '#1c181a'
+    alpha: 1.0
+  midground:
+    hex: '#d8d0d4'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(184, 136, 152, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#b88898'
+  primaryForeground: '#ffffff'
+  accent: '#b88898'
+  accentForeground: '#ffffff'
+  border: '#a87088'
+  input: '#a87088'
+  ring: '#b88898'
+  success: '#88b898'
+  warning: '#c8a870'
+  destructive: '#c87070'

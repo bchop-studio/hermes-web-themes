@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/neon-ghost.yaml)
+name: neon-ghost
+label: Neon Ghost
+description: Electric ghost in the machine — hot magenta on void black with cyan whispers
+palette:
+  background:
+    hex: '#0a0a0f'
+    alpha: 1.0
+  midground:
+    hex: '#e0e0ff'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 0, 255, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff00ff'
+  primaryForeground: '#ffffff'
+  accent: '#ff00ff'
+  accentForeground: '#ffffff'
+  border: '#ff00ff'
+  input: '#ff00ff'
+  ring: '#ff00ff'
+  success: '#00ff88'
+  warning: '#ffaa00'
+  destructive: '#ff3366'

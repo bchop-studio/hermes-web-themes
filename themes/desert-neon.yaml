@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/desert-neon.yaml)
+name: desert-neon
+label: Desert Neon
+description: Vegas motel sign at 3am — hot turquoise, flamingo pink, and desert gold
+  on baked black
+palette:
+  background:
+    hex: '#14100c'
+    alpha: 1.0
+  midground:
+    hex: '#e8d8c8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 184, 0, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ffb800'
+  primaryForeground: '#1a1a1a'
+  accent: '#ffb800'
+  accentForeground: '#1a1a1a'
+  border: '#ff4088'
+  input: '#ff4088'
+  ring: '#ffb800'
+  success: '#40e880'
+  warning: '#ffb800'
+  destructive: '#ff4088'

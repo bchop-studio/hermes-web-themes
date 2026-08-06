@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/void-sunset.yaml)
+name: void-sunset
+label: Void Sunset
+description: Neon sunset bleeding into a dead channel — violet, tangerine, and seafoam
+  on bruised plum
+palette:
+  background:
+    hex: '#1a1030'
+    alpha: 1.0
+  midground:
+    hex: '#e6d8f0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 95, 210, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff5fd2'
+  primaryForeground: '#ffffff'
+  accent: '#ff5fd2'
+  accentForeground: '#ffffff'
+  border: '#ffb870'
+  input: '#ffb870'
+  ring: '#ff5fd2'
+  success: '#5af7b0'
+  warning: '#ffb870'
+  destructive: '#ff5fd2'

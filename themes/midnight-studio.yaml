@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/midnight-studio.yaml)
+name: midnight-studio
+label: Midnight Studio
+description: Late-night coding den — dark indigo, warm gold accents, and soft amber
+  glow
+palette:
+  background:
+    hex: '#1a1a2e'
+    alpha: 1.0
+  midground:
+    hex: '#d8d0c8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(200, 160, 80, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#c8a050'
+  primaryForeground: '#ffffff'
+  accent: '#c8a050'
+  accentForeground: '#ffffff'
+  border: '#504868'
+  input: '#504868'
+  ring: '#c8a050'
+  success: '#80a870'
+  warning: '#d8a040'
+  destructive: '#b05850'

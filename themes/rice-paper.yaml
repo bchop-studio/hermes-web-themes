@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/rice-paper.yaml)
+name: rice-paper
+label: Rice Paper
+description: Japanese washi — off-white paper, sumi ink black, and a single vermilion
+  accent
+palette:
+  background:
+    hex: '#fafaf5'
+    alpha: 1.0
+  midground:
+    hex: '#1a1a1a'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(204, 51, 51, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#cc3333'
+  primaryForeground: '#ffffff'
+  accent: '#cc3333'
+  accentForeground: '#ffffff'
+  border: '#888888'
+  input: '#888888'
+  ring: '#cc3333'
+  success: '#408040'
+  warning: '#aa6622'
+  destructive: '#cc3333'
