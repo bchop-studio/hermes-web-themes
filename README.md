@@ -6,7 +6,7 @@ web UI, ported from the 50 TUI skins in
 
 ## Preview
 
-![Theme grid — 12 of the 50 themes on the live dashboard](assets/theme-grid.png)
+![Hermes Web Themes — 50 dashboard themes](cover.png)
 
 ## Install
 
@@ -45,3 +45,15 @@ optional `typography` and `layout`; `colorOverrides` for shadcn token
 accents (`primary`, `accent`, `border`, `success`, `warning`,
 `destructive`, ...). The full schema is defined by
 `_normalise_theme_definition` in `hermes_cli/web_server.py`.
+
+---
+
+MIT. Do whatever you want with these.
+
+Made by @BChopLXXXII
+
+Built for vibe coders who just want their AI to feel less... corporate.
+
+Ship it. 🚀
+
+If this helped, ⭐ the repo — it helps others find it.
