@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/liquid-silver.yaml)
+name: liquid-silver
+label: Liquid Silver
+description: Mercury runoff — reflective silver, liquid chrome gradients, and deep
+  void black accents
+palette:
+  background:
+    hex: '#121216'
+    alpha: 1.0
+  midground:
+    hex: '#d0d0d8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(144, 144, 168, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#9090a8'
+  primaryForeground: '#ffffff'
+  accent: '#9090a8'
+  accentForeground: '#ffffff'
+  border: '#707080'
+  input: '#707080'
+  ring: '#9090a8'
+  success: '#78b090'
+  warning: '#b0a070'
+  destructive: '#b07080'

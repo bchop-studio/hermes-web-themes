@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/enchanted-forest.yaml)
+name: enchanted-forest
+label: Enchanted Forest
+description: Feywild glade — deep viridian, bioluminescent teal, pale gold motes on
+  woodland shadow
+palette:
+  background:
+    hex: '#0e1814'
+    alpha: 1.0
+  midground:
+    hex: '#c0e0d0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(200, 176, 64, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#c8b040'
+  primaryForeground: '#1a1a1a'
+  accent: '#c8b040'
+  accentForeground: '#1a1a1a'
+  border: '#388060'
+  input: '#388060'
+  ring: '#c8b040'
+  success: '#60d8a0'
+  warning: '#c8b040'
+  destructive: '#d06060'

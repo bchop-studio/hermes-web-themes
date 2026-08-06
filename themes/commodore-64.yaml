@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/commodore-64.yaml)
+name: commodore-64
+label: Commodore 64
+description: 1980s home computer — that specific washed-out blue background with purple-magenta
+  titles
+palette:
+  background:
+    hex: '#202840'
+    alpha: 1.0
+  midground:
+    hex: '#c8c8e8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(144, 112, 208, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#9070d0'
+  primaryForeground: '#ffffff'
+  accent: '#9070d0'
+  accentForeground: '#ffffff'
+  border: '#8068c0'
+  input: '#8068c0'
+  ring: '#9070d0'
+  success: '#70d070'
+  warning: '#d0c050'
+  destructive: '#d06060'

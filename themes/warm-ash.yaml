@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/warm-ash.yaml)
+name: warm-ash
+label: Warm Ash
+description: Fireplace embers gone cold — a warm gray monochrome with the faintest
+  amber memory
+palette:
+  background:
+    hex: '#1e1c18'
+    alpha: 1.0
+  midground:
+    hex: '#c8c0b8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(120, 104, 88, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#786858'
+  primaryForeground: '#ffffff'
+  accent: '#786858'
+  accentForeground: '#ffffff'
+  border: '#504840'
+  input: '#504840'
+  ring: '#786858'
+  success: '#809868'
+  warning: '#988850'
+  destructive: '#987060'

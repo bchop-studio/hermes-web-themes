@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/netrunner.yaml)
+name: netrunner
+label: Netrunner
+description: Jacked into the mainframe — phosphor amber, digital teal, and alert red
+  on deep navy
+palette:
+  background:
+    hex: '#0a1628'
+    alpha: 1.0
+  midground:
+    hex: '#d0e0f0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 176, 0, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ffb000'
+  primaryForeground: '#1a1a1a'
+  accent: '#ffb000'
+  accentForeground: '#1a1a1a'
+  border: '#ffb000'
+  input: '#ffb000'
+  ring: '#ffb000'
+  success: '#00d4aa'
+  warning: '#ffb000'
+  destructive: '#ff3344'

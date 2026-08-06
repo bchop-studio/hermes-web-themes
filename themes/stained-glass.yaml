@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/stained-glass.yaml)
+name: stained-glass
+label: Stained Glass
+description: Cathedral window — jewel tones of sapphire, ruby, emerald, and amber
+  on dark lead
+palette:
+  background:
+    hex: '#141420'
+    alpha: 1.0
+  midground:
+    hex: '#d8d0c8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(80, 160, 208, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#50a0d0'
+  primaryForeground: '#ffffff'
+  accent: '#50a0d0'
+  accentForeground: '#ffffff'
+  border: '#c0a050'
+  input: '#c0a050'
+  ring: '#50a0d0'
+  success: '#60b870'
+  warning: '#c0a050'
+  destructive: '#c05050'

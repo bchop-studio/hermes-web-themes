@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/white-flash.yaml)
+name: white-flash
+label: White Flash
+description: Maximum readability — pure white text on pure black, with electric yellow
+  and cyan signals
+palette:
+  background:
+    hex: '#000000'
+    alpha: 1.0
+  midground:
+    hex: '#ffffff'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 255, 0, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ffff00'
+  primaryForeground: '#1a1a1a'
+  accent: '#ffff00'
+  accentForeground: '#1a1a1a'
+  border: '#ffffff'
+  input: '#ffffff'
+  ring: '#ffff00'
+  success: '#00ff00'
+  warning: '#ffff00'
+  destructive: '#ff0000'

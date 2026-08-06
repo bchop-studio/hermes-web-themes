@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/dragon-blood.yaml)
+name: dragon-blood
+label: Dragon Blood
+description: Ancient wyrm — dark crimson, molten gold, and charcoal black, forged
+  in fire
+palette:
+  background:
+    hex: '#141010'
+    alpha: 1.0
+  midground:
+    hex: '#e0d0c0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(208, 64, 64, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#d04040'
+  primaryForeground: '#ffffff'
+  accent: '#d04040'
+  accentForeground: '#ffffff'
+  border: '#b83030'
+  input: '#b83030'
+  ring: '#d04040'
+  success: '#50a050'
+  warning: '#f0c840'
+  destructive: '#e03030'

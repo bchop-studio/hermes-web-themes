@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/slate-mist.yaml)
+name: slate-mist
+label: Slate Mist
+description: Fogged window — soft blue-gray monochrome with barely-there contrast,
+  calm and quiet
+palette:
+  background:
+    hex: '#1c1e22'
+    alpha: 1.0
+  midground:
+    hex: '#c0c4cc'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(104, 116, 136, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#687488'
+  primaryForeground: '#ffffff'
+  accent: '#687488'
+  accentForeground: '#ffffff'
+  border: '#444a54'
+  input: '#444a54'
+  ring: '#687488'
+  success: '#7a907a'
+  warning: '#908a70'
+  destructive: '#907a7a'

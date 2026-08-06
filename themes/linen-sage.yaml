@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/linen-sage.yaml)
+name: linen-sage
+label: Linen Sage
+description: Linen fabric — natural flax background with muted sage green and soft
+  clay accents
+palette:
+  background:
+    hex: '#f4f0e8'
+    alpha: 1.0
+  midground:
+    hex: '#384830'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(104, 120, 88, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#687858'
+  primaryForeground: '#ffffff'
+  accent: '#687858'
+  accentForeground: '#ffffff'
+  border: '#889878'
+  input: '#889878'
+  ring: '#687858'
+  success: '#588050'
+  warning: '#907048'
+  destructive: '#905048'
