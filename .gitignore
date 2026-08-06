@@ -8,3 +8,6 @@ __pycache__/
 *.Zone.Identifier
 assets/*.mp4
 assets/*.webm
+.hermes.md
+BUILDLOG.md
+assets/
