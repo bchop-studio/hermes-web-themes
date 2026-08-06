@@ -6,7 +6,7 @@ web UI, ported from the 50 TUI skins in
 
 ## Preview
 
-![Theme grid — 12 of the 50 themes on the live dashboard](assets/theme-grid.png)
+![Hermes Web Themes — 50 dashboard themes](cover.png)
 
 ## Install
 
