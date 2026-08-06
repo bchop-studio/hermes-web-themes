@@ -4,6 +4,13 @@ Dashboard themes for the [Hermes Agent](https://github.com/NousResearch/hermes-a
 web UI, ported from the 50 TUI skins in
 [hermes-skins-pack](https://github.com/bchop-studio/hermes-skins-pack).
 
+## Preview
+
+![Theme grid — 12 of the 50 themes on the live dashboard](assets/theme-grid.png)
+
+Short demo clip cycling themes on the real dashboard UI:
+[assets/theme-demo.mp4](assets/theme-demo.mp4) (18s, 1600x900).
+
 ## Install
 
 Copy or symlink the themes into your Hermes dashboard-themes directory:
