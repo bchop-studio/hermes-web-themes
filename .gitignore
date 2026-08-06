@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 *:Zone.Identifier
 *.Zone.Identifier
+assets/*.mp4
+assets/*.webm
