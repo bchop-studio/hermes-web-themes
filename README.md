@@ -45,3 +45,15 @@ optional `typography` and `layout`; `colorOverrides` for shadcn token
 accents (`primary`, `accent`, `border`, `success`, `warning`,
 `destructive`, ...). The full schema is defined by
 `_normalise_theme_definition` in `hermes_cli/web_server.py`.
+
+---
+
+MIT. do whatever you want with these.
+
+made by @BChopLXXXII
+
+built for vibe coders who just want their AI to feel less... corporate.
+
+ship it. 🚀
+
+if this helped, ⭐ the repo — it helps others find it.
