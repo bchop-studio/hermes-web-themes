@@ -8,12 +8,6 @@ web UI, ported from the 50 TUI skins in
 
 ![Theme grid — 12 of the 50 themes on the live dashboard](assets/theme-grid.png)
 
-Short demo clip cycling themes on the real dashboard UI:
-[assets/theme-demo.mp4](assets/theme-demo.mp4) (18s, 1600x900).
-
-Trailer version with opening and closing title cards:
-[assets/theme-demo-titles.mp4](assets/theme-demo-titles.mp4) (21s, 1600x900).
-
 ## Install
 
 Copy or symlink the themes into your Hermes dashboard-themes directory:
