@@ -2,6 +2,19 @@
 
 Reverse-chronological build log for hermes-web-themes.
 
+## 2026-08-05 — feat/theme-demo-titles: title cards on demo clip
+
+- Built opening card ("hermes-web-themes" / "50 themes. One dashboard.")
+  and closing card ("Install in one step" / copy-to-`~/.hermes/dashboard-themes/`
+  one-liner) as 1600x900 PNGs via ffmpeg drawtext on a #0d0f14 background
+  (DejaVu Sans / Sans Mono).
+- Rendered each card to 1.5s h264 (libx264, crf 18, 25fps, yuv420p, 0.25s
+  fade in/out), re-encoded the raw demo with a matching fade-in, and
+  concat-demuxed to `assets/theme-demo-titles.mp4`.
+- ffprobe verified: h264, 1600x900, 20.6s. Extracted 3 frames (0.75s / 10s /
+  20s); card text confirmed legible on both cards.
+- README: linked the titled trailer next to the raw demo clip.
+
 ## 2026-08-05 — chore/preview-assets: screenshots + demo clip
 
 - Captured 12 theme screenshots (1600x900) on the live dashboard at
