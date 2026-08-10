@@ -1,12 +1,12 @@
 # hermes-web-themes
 
 Dashboard themes for the [Hermes Agent](https://github.com/NousResearch/hermes-agent)
-web UI, ported from the 50 TUI skins in
+web UI, ported from the 100 TUI skins in
 [hermes-skins-pack](https://github.com/bchop-studio/hermes-skins-pack).
 
 ## Preview
 
-![Hermes Web Themes — 50 dashboard themes](cover.png)
+![Hermes Web Themes — 100 dashboard themes](cover.png)
 
 ## Install
 
@@ -32,6 +32,7 @@ Requires Python 3 with `pyyaml`.
 ```bash
 python3 scripts/convert.py            # reads ~/github/hermes-skins-pack/skins
 python3 scripts/validate.py           # validates all themes in themes/
+python3 -m unittest discover -s tests -v
 ```
 
 `convert.py` accepts `--skins-dir` and `--out-dir` overrides.

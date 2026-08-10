@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/chromatic-drift.yaml)
+name: chromatic-drift
+label: Chromatic Drift
+description: Misregistered print dark — off-white text, process-yellow accents, split-channel
+  semantics
+palette:
+  background:
+    hex: '#111015'
+    alpha: 1.0
+  midground:
+    hex: '#dcdce4'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(240, 208, 64, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#f0d040'
+  primaryForeground: '#1a1a1a'
+  accent: '#f0d040'
+  accentForeground: '#1a1a1a'
+  border: '#2c2c34'
+  input: '#2c2c34'
+  ring: '#f0d040'
+  success: '#4cd88c'
+  warning: '#f0a040'
+  destructive: '#f05050'

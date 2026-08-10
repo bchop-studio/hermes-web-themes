@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/taffy.yaml)
+name: taffy
+label: Taffy
+description: Saltwater taffy light — lilac paper, grape text, and a pulled-sugar violet
+  accent
+palette:
+  background:
+    hex: '#fdf0ff'
+    alpha: 1.0
+  midground:
+    hex: '#442c48'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(152, 56, 200, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#9838c8'
+  primaryForeground: '#ffffff'
+  accent: '#9838c8'
+  accentForeground: '#ffffff'
+  border: '#e4ccec'
+  input: '#e4ccec'
+  ring: '#9838c8'
+  success: '#3c8a58'
+  warning: '#946806'
+  destructive: '#c83058'

@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/candlelight.yaml)
+name: candlelight
+label: Candlelight
+description: Single-flame dark — warm cream text, bright ember-orange accents, and
+  wax-soft borders
+palette:
+  background:
+    hex: '#1e0f08'
+    alpha: 1.0
+  midground:
+    hex: '#f0dcc0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(240, 144, 56, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#f09038'
+  primaryForeground: '#ffffff'
+  accent: '#f09038'
+  accentForeground: '#ffffff'
+  border: '#4e2c16'
+  input: '#4e2c16'
+  ring: '#f09038'
+  success: '#b0a850'
+  warning: '#f0a840'
+  destructive: '#e04830'

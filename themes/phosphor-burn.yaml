@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/phosphor-burn.yaml)
+name: phosphor-burn
+label: Phosphor Burn
+description: CRT ghost-image dark — pale phosphor text, burn-green accents, amber
+  warnings
+palette:
+  background:
+    hex: '#0a0c08'
+    alpha: 1.0
+  midground:
+    hex: '#d0e8c0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(160, 224, 64, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#a0e040'
+  primaryForeground: '#1a1a1a'
+  accent: '#a0e040'
+  accentForeground: '#1a1a1a'
+  border: '#22301a'
+  input: '#22301a'
+  ring: '#a0e040'
+  success: '#90d858'
+  warning: '#d8b850'
+  destructive: '#d06858'

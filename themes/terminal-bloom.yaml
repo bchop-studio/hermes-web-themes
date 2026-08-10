@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/terminal-bloom.yaml)
+name: terminal-bloom
+label: Terminal Bloom
+description: Overgrown console dark — frost text, hot-orchid accents, and teal tooling
+palette:
+  background:
+    hex: '#0c1014'
+    alpha: 1.0
+  midground:
+    hex: '#d0e4f0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 92, 168, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff5ca8'
+  primaryForeground: '#ffffff'
+  accent: '#ff5ca8'
+  accentForeground: '#ffffff'
+  border: '#1e3038'
+  input: '#1e3038'
+  ring: '#ff5ca8'
+  success: '#58e0a8'
+  warning: '#f0c058'
+  destructive: '#ff6060'

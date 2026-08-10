@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/sahara-dusk.yaml)
+name: sahara-dusk
+label: Sahara Dusk
+description: Late-day sand dark — cream text, dune-gold accents, and terracotta tooling
+palette:
+  background:
+    hex: '#1c130c'
+    alpha: 1.0
+  midground:
+    hex: '#ecdcc4'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(232, 163, 76, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#e8a34c'
+  primaryForeground: '#1a1a1a'
+  accent: '#e8a34c'
+  accentForeground: '#1a1a1a'
+  border: '#4a3626'
+  input: '#4a3626'
+  ring: '#e8a34c'
+  success: '#98b85c'
+  warning: '#e0b050'
+  destructive: '#d85c50'

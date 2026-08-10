@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/rust-belt.yaml)
+name: rust-belt
+label: Rust Belt
+description: Oxidized iron dark — bone text, rust-orange accents, and worn leather
+  tooling
+palette:
+  background:
+    hex: '#161210'
+    alpha: 1.0
+  midground:
+    hex: '#ddd2c4'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(192, 100, 52, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#c06434'
+  primaryForeground: '#ffffff'
+  accent: '#c06434'
+  accentForeground: '#ffffff'
+  border: '#3e342c'
+  input: '#3e342c'
+  ring: '#c06434'
+  success: '#949e52'
+  warning: '#ce9c46'
+  destructive: '#cc5240'

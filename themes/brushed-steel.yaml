@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/brushed-steel.yaml)
+name: brushed-steel
+label: Brushed Steel
+description: Cold workshop dark — silver text, steel-blue accents, and machine-shop
+  gray
+palette:
+  background:
+    hex: '#121418'
+    alpha: 1.0
+  midground:
+    hex: '#d6dae0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(143, 164, 184, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#8fa4b8'
+  primaryForeground: '#ffffff'
+  accent: '#8fa4b8'
+  accentForeground: '#ffffff'
+  border: '#2e333a'
+  input: '#2e333a'
+  ring: '#8fa4b8'
+  success: '#6fae72'
+  warning: '#c6a058'
+  destructive: '#c26068'

@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/fern-hollow.yaml)
+name: fern-hollow
+label: Fern Hollow
+description: Shaded forest floor dark — mist text, fern-green accents, and river-stone
+  borders
+palette:
+  background:
+    hex: '#0e1a12'
+    alpha: 1.0
+  midground:
+    hex: '#d2e6da'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(110, 200, 126, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#6ec87e'
+  primaryForeground: '#1a1a1a'
+  accent: '#6ec87e'
+  accentForeground: '#1a1a1a'
+  border: '#28443a'
+  input: '#28443a'
+  ring: '#6ec87e'
+  success: '#76cc84'
+  warning: '#d8b05c'
+  destructive: '#d86870'

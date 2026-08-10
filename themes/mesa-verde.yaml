@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/mesa-verde.yaml)
+name: mesa-verde
+label: Mesa Verde
+description: Sun-baked clay dark — straw text, sage-olive accents, and adobe-earth
+  borders
+palette:
+  background:
+    hex: '#181410'
+    alpha: 1.0
+  midground:
+    hex: '#e2d8c8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(154, 154, 82, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#9a9a52'
+  primaryForeground: '#ffffff'
+  accent: '#9a9a52'
+  accentForeground: '#ffffff'
+  border: '#443a2e'
+  input: '#443a2e'
+  ring: '#9a9a52'
+  success: '#8aa858'
+  warning: '#d0a048'
+  destructive: '#cc5f50'

@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/mirage.yaml)
+name: mirage
+label: Mirage
+description: Heat-haze light theme — bleached sand paper, umber text, and burnt-orange
+  accents
+palette:
+  background:
+    hex: '#f4ece0'
+    alpha: 1.0
+  midground:
+    hex: '#40342a'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(168, 92, 32, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#a85c20'
+  primaryForeground: '#ffffff'
+  accent: '#a85c20'
+  accentForeground: '#ffffff'
+  border: '#d4c4b0'
+  input: '#d4c4b0'
+  ring: '#a85c20'
+  success: '#5a7a38'
+  warning: '#9c7014'
+  destructive: '#b03830'

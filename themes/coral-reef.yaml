@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/coral-reef.yaml)
+name: coral-reef
+label: Coral Reef
+description: Warm reef life on deep blue-black — coral orange accents, sandy numbers,
+  and bright tropical semantics
+palette:
+  background:
+    hex: '#101820'
+    alpha: 1.0
+  midground:
+    hex: '#f0e4dc'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 143, 112, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff8f70'
+  primaryForeground: '#1a1a1a'
+  accent: '#ff8f70'
+  accentForeground: '#1a1a1a'
+  border: '#3a3440'
+  input: '#3a3440'
+  ring: '#ff8f70'
+  success: '#7fd08a'
+  warning: '#f0b860'
+  destructive: '#f06068'

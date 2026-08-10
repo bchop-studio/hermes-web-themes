@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/abyssal-plain.yaml)
+name: abyssal-plain
+label: Abyssal Plain
+description: Crushing deep-sea dark — pale foam text, teal accents, and cold blue
+  tooling on black water
+palette:
+  background:
+    hex: '#081620'
+    alpha: 1.0
+  midground:
+    hex: '#d4e6ee'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(70, 194, 201, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#46c2c9'
+  primaryForeground: '#1a1a1a'
+  accent: '#46c2c9'
+  accentForeground: '#1a1a1a'
+  border: '#1e3d4c'
+  input: '#1e3d4c'
+  ring: '#46c2c9'
+  success: '#58c78c'
+  warning: '#d9a45a'
+  destructive: '#e05f6e'

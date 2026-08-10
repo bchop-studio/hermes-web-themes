@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/starlight-ash.yaml)
+name: starlight-ash
+label: Starlight Ash
+description: Quiet monochrome-leaning space — ash text, moonstone accents, nothing
+  loud
+palette:
+  background:
+    hex: '#16151a'
+    alpha: 1.0
+  midground:
+    hex: '#d4d2dc'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(176, 168, 200, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#b0a8c8'
+  primaryForeground: '#1a1a1a'
+  accent: '#b0a8c8'
+  accentForeground: '#1a1a1a'
+  border: '#36343e'
+  input: '#36343e'
+  ring: '#b0a8c8'
+  success: '#7cba8a'
+  warning: '#c4a468'
+  destructive: '#c46a72'

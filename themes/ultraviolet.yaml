@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/ultraviolet.yaml)
+name: ultraviolet
+label: Ultraviolet
+description: Club dark under blacklight — lilac text, violet-laser accents, and hot
+  pink errors
+palette:
+  background:
+    hex: '#10061c'
+    alpha: 1.0
+  midground:
+    hex: '#e8dcf4'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(180, 92, 255, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#b45cff'
+  primaryForeground: '#ffffff'
+  accent: '#b45cff'
+  accentForeground: '#ffffff'
+  border: '#38204e'
+  input: '#38204e'
+  ring: '#b45cff'
+  success: '#5ce89a'
+  warning: '#ffc45c'
+  destructive: '#ff5c88'
