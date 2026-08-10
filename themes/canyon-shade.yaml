@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/canyon-shade.yaml)
+name: canyon-shade
+label: Canyon Shade
+description: Cool shadow under red rock — pale mauve text, dusty copper accents, and
+  plum-dark borders
+palette:
+  background:
+    hex: '#120e14'
+    alpha: 1.0
+  midground:
+    hex: '#d8ccd4'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(192, 104, 88, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#c06858'
+  primaryForeground: '#ffffff'
+  accent: '#c06858'
+  accentForeground: '#ffffff'
+  border: '#38262e'
+  input: '#38262e'
+  ring: '#c06858'
+  success: '#98a058'
+  warning: '#cc9848'
+  destructive: '#d05248'

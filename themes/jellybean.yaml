@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/jellybean.yaml)
+name: jellybean
+label: Jellybean
+description: Candy jar dark — sugar-white text, mint accents, and a pick-and-mix of
+  bright semantics
+palette:
+  background:
+    hex: '#14101c'
+    alpha: 1.0
+  midground:
+    hex: '#ece4f4'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(108, 224, 184, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#6ce0b8'
+  primaryForeground: '#1a1a1a'
+  accent: '#6ce0b8'
+  accentForeground: '#1a1a1a'
+  border: '#342c44'
+  input: '#342c44'
+  ring: '#6ce0b8'
+  success: '#68e090'
+  warning: '#f0c860'
+  destructive: '#f06080'

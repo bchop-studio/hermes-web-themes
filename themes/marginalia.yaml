@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/marginalia.yaml)
+name: marginalia
+label: Marginalia
+description: Reader's notes light — ivory paper, carbon text, and oxblood-red annotations
+palette:
+  background:
+    hex: '#faf8f4'
+    alpha: 1.0
+  midground:
+    hex: '#2e2c28'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(140, 60, 80, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#8c3c50'
+  primaryForeground: '#ffffff'
+  accent: '#8c3c50'
+  accentForeground: '#ffffff'
+  border: '#dedad2'
+  input: '#dedad2'
+  ring: '#8c3c50'
+  success: '#3f6a34'
+  warning: '#957018'
+  destructive: '#a83240'

@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/knit-wool.yaml)
+name: knit-wool
+label: Knit Wool
+description: Heathered wool light — lilac-gray paper, charcoal text, and a muted plum
+  accent
+palette:
+  background:
+    hex: '#ece8ec'
+    alpha: 1.0
+  midground:
+    hex: '#403c44'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(124, 84, 104, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#7c5468'
+  primaryForeground: '#ffffff'
+  accent: '#7c5468'
+  accentForeground: '#ffffff'
+  border: '#d2cbd4'
+  input: '#d2cbd4'
+  ring: '#7c5468'
+  success: '#5c7038'
+  warning: '#9c7420'
+  destructive: '#a84438'

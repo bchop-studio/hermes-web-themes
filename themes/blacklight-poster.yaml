@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/blacklight-poster.yaml)
+name: blacklight-poster
+label: Blacklight Poster
+description: Fluorescent ink on black paper — orchid text, hot magenta accents, poster-bright
+  semantics
+palette:
+  background:
+    hex: '#0c0614'
+    alpha: 1.0
+  midground:
+    hex: '#ecdff8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 76, 216, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ff4cd8'
+  primaryForeground: '#ffffff'
+  accent: '#ff4cd8'
+  accentForeground: '#ffffff'
+  border: '#341c48'
+  input: '#341c48'
+  ring: '#ff4cd8'
+  success: '#58f0a8'
+  warning: '#ffe05c'
+  destructive: '#ff5c70'

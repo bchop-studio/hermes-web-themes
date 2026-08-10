@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/cactus-bloom.yaml)
+name: cactus-bloom
+label: Cactus Bloom
+description: Desert night in flower — pale sage text, hot pink blooms, and olive confirmations
+palette:
+  background:
+    hex: '#101408'
+    alpha: 1.0
+  midground:
+    hex: '#dce8cc'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(232, 106, 144, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#e86a90'
+  primaryForeground: '#ffffff'
+  accent: '#e86a90'
+  accentForeground: '#ffffff'
+  border: '#38401f'
+  input: '#38401f'
+  ring: '#e86a90'
+  success: '#88b84c'
+  warning: '#d8a848'
+  destructive: '#d85868'

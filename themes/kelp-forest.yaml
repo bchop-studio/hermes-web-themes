@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/kelp-forest.yaml)
+name: kelp-forest
+label: Kelp Forest
+description: Cold teal depths — pale sea-glass text, kelp-teal accents, and harbor-blue
+  tooling
+palette:
+  background:
+    hex: '#0a1618'
+    alpha: 1.0
+  midground:
+    hex: '#d0e4e0'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(84, 184, 168, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#54b8a8'
+  primaryForeground: '#ffffff'
+  accent: '#54b8a8'
+  accentForeground: '#ffffff'
+  border: '#1e3a3c'
+  input: '#1e3a3c'
+  ring: '#54b8a8'
+  success: '#6cc878'
+  warning: '#d4ac58'
+  destructive: '#d86868'

@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/datamosh.yaml)
+name: datamosh
+label: Datamosh
+description: Corrupted-frame dark — static text, glitch-cyan accents, and magenta
+  keywords
+palette:
+  background:
+    hex: '#0e0e10'
+    alpha: 1.0
+  midground:
+    hex: '#d8d8dc'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(60, 224, 200, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#3ce0c8'
+  primaryForeground: '#1a1a1a'
+  accent: '#3ce0c8'
+  accentForeground: '#1a1a1a'
+  border: '#28282e'
+  input: '#28282e'
+  ring: '#3ce0c8'
+  success: '#58d880'
+  warning: '#e8c048'
+  destructive: '#f04868'

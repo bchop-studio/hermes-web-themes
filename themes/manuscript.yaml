@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/manuscript.yaml)
+name: manuscript
+label: Manuscript
+description: Vellum light — sepia ink text, gilt accents, and deckled-paper borders
+palette:
+  background:
+    hex: '#f7f2e7'
+    alpha: 1.0
+  midground:
+    hex: '#33302a'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(106, 76, 34, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#6a4c22'
+  primaryForeground: '#ffffff'
+  accent: '#6a4c22'
+  accentForeground: '#ffffff'
+  border: '#ddd3bf'
+  input: '#ddd3bf'
+  ring: '#6a4c22'
+  success: '#4a6a2c'
+  warning: '#93701a'
+  destructive: '#a03428'

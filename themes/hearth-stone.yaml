@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/hearth-stone.yaml)
+name: hearth-stone
+label: Hearth Stone
+description: Warm flagstone light — greige paper, charcoal text, and a fired-clay
+  accent
+palette:
+  background:
+    hex: '#ece7e0'
+    alpha: 1.0
+  midground:
+    hex: '#3e3833'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(122, 74, 48, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#7a4a30'
+  primaryForeground: '#ffffff'
+  accent: '#7a4a30'
+  accentForeground: '#ffffff'
+  border: '#cfc6ba'
+  input: '#cfc6ba'
+  ring: '#7a4a30'
+  success: '#556e36'
+  warning: '#96701e'
+  destructive: '#a63e34'

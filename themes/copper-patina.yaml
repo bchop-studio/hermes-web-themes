@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/copper-patina.yaml)
+name: copper-patina
+label: Copper Patina
+description: Aged copper dark — warm cream text, penny accents, and verdigris confirmations
+palette:
+  background:
+    hex: '#12100e'
+    alpha: 1.0
+  midground:
+    hex: '#e0d6c8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(200, 126, 78, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#c87e4e'
+  primaryForeground: '#ffffff'
+  accent: '#c87e4e'
+  accentForeground: '#ffffff'
+  border: '#3a332c'
+  input: '#3a332c'
+  ring: '#c87e4e'
+  success: '#62a88c'
+  warning: '#cfa24e'
+  destructive: '#c85a48'

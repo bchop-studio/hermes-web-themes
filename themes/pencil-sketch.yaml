@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/pencil-sketch.yaml)
+name: pencil-sketch
+label: Pencil Sketch
+description: Graphite on newsprint light — soft gray text, pencil-lead accents, nothing
+  inked
+palette:
+  background:
+    hex: '#f5f5f2'
+    alpha: 1.0
+  midground:
+    hex: '#3a3a38'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(92, 92, 86, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#5c5c56'
+  primaryForeground: '#ffffff'
+  accent: '#5c5c56'
+  accentForeground: '#ffffff'
+  border: '#d5d5cd'
+  input: '#d5d5cd'
+  ring: '#5c5c56'
+  success: '#4c6a38'
+  warning: '#8c7420'
+  destructive: '#a03c34'

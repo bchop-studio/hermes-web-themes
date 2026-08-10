@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/carbon-fiber.yaml)
+name: carbon-fiber
+label: Carbon Fiber
+description: Black weave dark — graphite text, caution-yellow accents, and gunmetal
+  borders
+palette:
+  background:
+    hex: '#0c0c0e'
+    alpha: 1.0
+  midground:
+    hex: '#d2d4d8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(232, 184, 64, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#e8b840'
+  primaryForeground: '#1a1a1a'
+  accent: '#e8b840'
+  accentForeground: '#1a1a1a'
+  border: '#26282c'
+  input: '#26282c'
+  ring: '#e8b840'
+  success: '#68b06c'
+  warning: '#e0ac40'
+  destructive: '#c85858'

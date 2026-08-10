@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/vapor-trail.yaml)
+name: vapor-trail
+label: Vapor Trail
+description: Contrail across a cold sky dark — ice text, aerosol-cyan accents, pink
+  keywords
+palette:
+  background:
+    hex: '#0a1418'
+    alpha: 1.0
+  midground:
+    hex: '#d4e8ec'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(76, 216, 224, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#4cd8e0'
+  primaryForeground: '#1a1a1a'
+  accent: '#4cd8e0'
+  accentForeground: '#1a1a1a'
+  border: '#1e343c'
+  input: '#1e343c'
+  ring: '#4cd8e0'
+  success: '#68d89c'
+  warning: '#e0b858'
+  destructive: '#e06078'

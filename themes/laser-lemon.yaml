@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/laser-lemon.yaml)
+name: laser-lemon
+label: Laser Lemon
+description: Dark room cut by a yellow beam — pale lilac text, laser-lemon accents,
+  neon semantics
+palette:
+  background:
+    hex: '#0e0a16'
+    alpha: 1.0
+  midground:
+    hex: '#f0e4f8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(255, 228, 76, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#ffe44c'
+  primaryForeground: '#1a1a1a'
+  accent: '#ffe44c'
+  accentForeground: '#1a1a1a'
+  border: '#322448'
+  input: '#322448'
+  ring: '#ffe44c'
+  success: '#58e888'
+  warning: '#ffcc48'
+  destructive: '#ff5c8c'

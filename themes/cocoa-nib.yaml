@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/cocoa-nib.yaml)
+name: cocoa-nib
+label: Cocoa Nib
+description: Drinking-chocolate dark — milky text, cocoa accents, and roasted-earth
+  borders
+palette:
+  background:
+    hex: '#171110'
+    alpha: 1.0
+  midground:
+    hex: '#e0d2c8'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(176, 122, 82, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#b07a52'
+  primaryForeground: '#ffffff'
+  accent: '#b07a52'
+  accentForeground: '#ffffff'
+  border: '#3b2f2a'
+  input: '#3b2f2a'
+  ring: '#b07a52'
+  success: '#8a9c5c'
+  warning: '#cb9c4e'
+  destructive: '#c45c4c'

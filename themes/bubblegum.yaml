@@ -1,0 +1,27 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/bubblegum.yaml)
+name: bubblegum
+label: Bubblegum
+description: Bubblegum light — pink paper, plum text, and a chewed-pink accent
+palette:
+  background:
+    hex: '#fff0f6'
+    alpha: 1.0
+  midground:
+    hex: '#4a2c3c'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(216, 48, 124, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#d8307c'
+  primaryForeground: '#ffffff'
+  accent: '#d8307c'
+  accentForeground: '#ffffff'
+  border: '#ecc8da'
+  input: '#ecc8da'
+  ring: '#d8307c'
+  success: '#3c8a50'
+  warning: '#9a6406'
+  destructive: '#d03050'

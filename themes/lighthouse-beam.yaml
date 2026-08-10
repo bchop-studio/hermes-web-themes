@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/lighthouse-beam.yaml)
+name: lighthouse-beam
+label: Lighthouse Beam
+description: Weathered light theme — fog-gray paper, ink text, and a sweep of brassy
+  lamp-gold
+palette:
+  background:
+    hex: '#f2f0ea'
+    alpha: 1.0
+  midground:
+    hex: '#2a3038'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(150, 96, 15, 0.25)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#96600f'
+  primaryForeground: '#ffffff'
+  accent: '#96600f'
+  accentForeground: '#ffffff'
+  border: '#c8c4b8'
+  input: '#c8c4b8'
+  ring: '#96600f'
+  success: '#3a7a48'
+  warning: '#a06c10'
+  destructive: '#c04048'

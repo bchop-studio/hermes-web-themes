@@ -1,0 +1,28 @@
+# Ported from bchop-studio/hermes-skins-pack (skins/glow-stick.yaml)
+name: glow-stick
+label: Glow Stick
+description: Cracked glow stick dark — pale lime text, toxic-green accents, and teal
+  tooling
+palette:
+  background:
+    hex: '#08120a'
+    alpha: 1.0
+  midground:
+    hex: '#e0f4dc'
+    alpha: 1.0
+  foreground:
+    hex: '#ffffff'
+    alpha: 0.0
+  warmGlow: rgba(168, 255, 60, 0.35)
+  noiseOpacity: 0.6
+colorOverrides:
+  primary: '#a8ff3c'
+  primaryForeground: '#1a1a1a'
+  accent: '#a8ff3c'
+  accentForeground: '#1a1a1a'
+  border: '#223c1e'
+  input: '#223c1e'
+  ring: '#a8ff3c'
+  success: '#7ce86c'
+  warning: '#ffd05c'
+  destructive: '#ff6a6a'
