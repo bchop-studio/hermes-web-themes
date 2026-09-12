@@ -4,26 +4,34 @@ on:
   pull_request:
   push:
     branches: [main]
+  schedule:
+    - cron: "37 9 * * 1"
+  workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Check out web themes
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
       - name: Check out source skins
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           repository: bchop-studio/hermes-skins-pack
           ref: d626c02a484d3122a2aa71b675f06c12f81ee904
           path: hermes-skins-pack
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
         with:
           python-version: "3.12"
           cache: pip
@@ -39,3 +47,17 @@ jobs:
 
       - name: Test source parity and deterministic conversion
         run: python -m unittest discover -s tests -v
+
+      - name: Reject sensitive tracked filenames
+        shell: bash
+        run: |
+          python - <<'PY'
+          import subprocess
+
+          blocked_suffixes = (".env", ".pem", ".key", "id_rsa", "id_ed25519")
+          tracked = subprocess.check_output(["git", "ls-files"], text=True).splitlines()
+          blocked = [path for path in tracked if path.lower().endswith(blocked_suffixes)]
+          if blocked:
+              raise SystemExit("Sensitive tracked filenames: " + ", ".join(blocked))
+          print("sensitive tracked filename check passed")
+          PY
